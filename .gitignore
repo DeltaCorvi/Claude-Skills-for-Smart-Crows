@@ -4,6 +4,8 @@
 # IDE and editor files
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 *.swp
 *.swo
 *~
