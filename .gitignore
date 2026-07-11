@@ -1,0 +1,21 @@
+# Obsidian
+.obsidian/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any skill uses them)
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
