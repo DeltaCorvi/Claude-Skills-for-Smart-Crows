@@ -21,7 +21,7 @@ This skill writes promotional blurbs that entice an audience to attend a live ta
 
 ## Credits
 
-The five-sentence formula this skill is built on was shared with me year ago by [Jason Blanchard](https://www.linkedin.com/in/jasonsblanchard/). If the formula works for you, too, he should get the credit. 🙂
+[Jason Blanchard](https://www.linkedin.com/in/jasonsblanchard/) developed and shared the five-sentence formula that this skill is built on. If the formula works for you, too, he should get the credit. 🙂
 
 ## Installation
 
