@@ -2,6 +2,9 @@
 
 A collection of reusable skills for Claude Code and Cowork. Each skill is self-contained with its own directory, documentation, and installation instructions.
 
+> [!info]
+> Even if you don't use Claude as your main LLM, these "skills" can be copy/pasted or uploaded to other LLMs (ChatGPT, Copilot, Gemini, etc.) in order to leverage the context and instructions each skill contains. 
+
 ## Installation
 
 Each skill includes an `INSTALLATION.md` file with step-by-step setup instructions for both Claude Code and Cowork, across Windows, macOS, and Linux.
@@ -17,7 +20,7 @@ Each skill includes an `INSTALLATION.md` file with step-by-step setup instructio
 
 1. Navigate to the skill directory
 2. Follow the "Installing in Cowork" section in `INSTALLATION.md`
-3. Skills are managed in the app under Customize > Skills
+3. Skills are managed in the app under **Customize > Skills**
 4. Upload as a `.skill` file or browse the skills directory if published
 
 ## What is a Claude Skill?
