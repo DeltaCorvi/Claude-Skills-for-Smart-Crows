@@ -118,6 +118,12 @@ Every sentence should contribute something valuable.
 
 Remove unnecessary qualifiers, repetitive explanations, tangents, and details that do not support the story or discussion. Tight writing creates better pacing and makes episodes easier to follow.
 
+## Remove Em Dashes
+
+Before finalizing, remove any inline em dashes (—) from the script.
+
+Em dashes are a page convention and don't correspond to any spoken pause a host would naturally make. Rephrase with a period, comma, or conjunction instead.
+
 ## The Final Test
 
 A well-written podcast script should sound like a knowledgeable person speaking naturally, not an essay being read aloud.

@@ -38,7 +38,8 @@ Check every draft against all of these before delivering it:
 1. Draft the five sentences following the structure above.
 2. Check the draft against every constraint in the Hard constraints section, one at a time.
 3. If any constraint is violated, revise and recheck before delivering.
-4. Deliver the finished blurb as plain text, one paragraph, no headers or labels.
+4. Remove any inline em dashes (—) from the text, rephrasing with a period, comma, or conjunction as needed.
+5. Deliver the finished blurb as plain text, one paragraph, no headers or labels.
 
 ## Example
 
