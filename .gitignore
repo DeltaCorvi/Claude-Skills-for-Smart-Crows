@@ -21,3 +21,6 @@ package-lock.json
 # Temporary files
 *.tmp
 *.bak
+
+# Working documents, drafts, and prototypes (not for GitHub)
+R&D/
