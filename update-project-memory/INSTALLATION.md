@@ -11,7 +11,7 @@ Cowork doesn't use `~/.claude/skills/` or CLI commands; skills are managed in th
 ### Option A: Upload the skill package
 
 1. Package this skill as a `.skill` file: a zip archive containing `update-project-memory/SKILL.md` (nothing else from this repo, not `README.md` or `INSTALLATION.md`).
-2. In Cowork, go to Settings > Capabilities > Upload skill and upload the `.skill` file.
+2. In Cowork, go to Customize > Skills, click Add, and upload the `.skill` file.
 3. The skill appears under Customize > Skills, enabled by default.
 
 This requires a Pro, Max, Team, or Enterprise plan with Code execution turned on. Skills you upload this way are private to your account. On Team or Enterprise, an org Owner can instead provision it for everyone from Organization settings > Skills.

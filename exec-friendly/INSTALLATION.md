@@ -1,6 +1,6 @@
 # Installation Instructions
 
-This guide walks you through installing the blurb writer skill. It follows the open Agent Skills standard, so it works in either Claude Code or Cowork. Pick the section below for your platform.
+This guide walks you through installing the exec-friendly skill. It follows the open Agent Skills standard, so it works in either Claude Code or Cowork. Pick the section below for your platform.
 
 Jump to: [Installing in Claude Code](#Installing%20in%20Claude%20Code) | [Installing in Cowork](#Installing%20in%20Cowork)
 
@@ -12,7 +12,7 @@ Claude Code automatically discovers skills placed in `~/.claude/skills/`. Each s
 
 ```
 ~/.claude/skills/
-└── blurb-writer/
+└── exec-friendly/
     └── SKILL.md
 ```
 
@@ -24,12 +24,12 @@ Open your terminal (PowerShell on Windows, bash/zsh on macOS/Linux) and run:
 
 **Windows (PowerShell):**
 ```powershell
-mkdir "$env:USERPROFILE\.claude\skills\blurb-writer" -Force
+mkdir "$env:USERPROFILE\.claude\skills\exec-friendly" -Force
 ```
 
 **macOS/Linux:**
 ```bash
-mkdir -p ~/.claude/skills/blurb-writer
+mkdir -p ~/.claude/skills/exec-friendly
 ```
 
 #### Step 2: Copy the SKILL.md File
@@ -38,18 +38,18 @@ Copy the `SKILL.md` file from this repository into the directory you just create
 
 **Option A: Manual copy**
 - Copy `SKILL.md` from this repo
-- Paste it into `~/.claude/skills/blurb-writer/`
+- Paste it into `~/.claude/skills/exec-friendly/`
 
 **Option B: Command line**
 
 **Windows (PowerShell):**
 ```powershell
-Copy-Item "SKILL.md" "$env:USERPROFILE\.claude\skills\blurb-writer\SKILL.md"
+Copy-Item "SKILL.md" "$env:USERPROFILE\.claude\skills\exec-friendly\SKILL.md"
 ```
 
 **macOS/Linux:**
 ```bash
-cp SKILL.md ~/.claude/skills/blurb-writer/SKILL.md
+cp SKILL.md ~/.claude/skills/exec-friendly/SKILL.md
 ```
 
 #### Step 3: Verify Installation
@@ -60,7 +60,7 @@ Claude Code detects new skills under `~/.claude/skills/` automatically, so no re
 /skills
 ```
 
-You should see `blurb-writer` in the list of available skills. If it doesn't appear, run `/reload-skills` to force a rescan: this is a troubleshooting/reassurance step, not a required part of installation. A full restart is only necessary if `~/.claude/skills/` did not exist before this install.
+You should see `exec-friendly` in the list of available skills. If it doesn't appear, run `/reload-skills` to force a rescan: this is a troubleshooting/reassurance step, not a required part of installation. A full restart is only necessary if `~/.claude/skills/` did not exist before this install.
 
 ### Troubleshooting
 
@@ -70,24 +70,24 @@ If the skill doesn't appear after running `/reload-skills`:
 
 Windows (PowerShell):
 ```powershell
-Test-Path "$env:USERPROFILE\.claude\skills\blurb-writer"
+Test-Path "$env:USERPROFILE\.claude\skills\exec-friendly"
 ```
 
 macOS/Linux:
 ```bash
-ls -la ~/.claude/skills/blurb-writer/
+ls -la ~/.claude/skills/exec-friendly/
 ```
 
 **Verify the file exists and is named correctly:**
 
 Windows (PowerShell):
 ```powershell
-Get-ChildItem "$env:USERPROFILE\.claude\skills\blurb-writer\"
+Get-ChildItem "$env:USERPROFILE\.claude\skills\exec-friendly\"
 ```
 
 macOS/Linux:
 ```bash
-ls -la ~/.claude/skills/blurb-writer/SKILL.md
+ls -la ~/.claude/skills/exec-friendly/SKILL.md
 ```
 
 **Common issues:**
@@ -95,7 +95,7 @@ ls -la ~/.claude/skills/blurb-writer/SKILL.md
 - File is not named exactly `SKILL.md` (case-sensitive on macOS/Linux)
 - YAML frontmatter is malformed (must start and end with `---`)
 - Live detection hasn't caught the change yet: run `/reload-skills`, or restart Claude Code if `~/.claude/skills/` was just created for the first time
-- On Windows, check that the path uses backslashes: `C:\Users\YourUsername\.claude\skills\blurb-writer\`
+- On Windows, check that the path uses backslashes: `C:\Users\YourUsername\.claude\skills\exec-friendly\`
 
 ## Installing in Cowork
 
@@ -103,7 +103,7 @@ Cowork doesn't use `~/.claude/skills/` or CLI commands; skills are managed in th
 
 ### Option A: Upload the skill package
 
-1. Package this skill as a `.skill` file: a zip archive containing `blurb-writer/SKILL.md` (nothing else from this repo, not `README.md` or `INSTALLATION.md`).
+1. Package this skill as a `.skill` file: a zip archive containing `exec-friendly/SKILL.md` (nothing else from this repo, not `README.md` or `INSTALLATION.md`).
 2. In Cowork, go to Customize > Skills, click Add, and upload the `.skill` file.
 3. The skill appears under Customize > Skills, enabled by default.
 
@@ -115,30 +115,30 @@ If this skill has been published to Anthropic's skills directory, it can be inst
 
 ## Using the Skill
 
-Once installed, the skill will automatically activate when you ask Claude to help with:
-- Writing a promo blurb or teaser for a talk, session, or webcast
-- Promoting or hyping up an upcoming speaker or presentation
-- Producing an event description in the five-sentence promo blurb format
+Once installed, the skill will automatically activate when you ask Claude to:
+- Make a document exec-friendly or simplify it for management
+- Translate jargon or acronyms for a non-technical business audience
+- Rewrite technical writing for executives or leadership
 
 You can also explicitly invoke it:
 ```
-Use the blurb-writer skill to write a promo blurb for my talk on zero-trust architecture.
+Use the exec-friendly skill to rewrite this report for our leadership team.
 ```
 
 ## Uninstalling
 
 ### Claude Code
 
-Delete the `~/.claude/skills/blurb-writer/` directory.
+Delete the `~/.claude/skills/exec-friendly/` directory.
 
 Windows (PowerShell):
 ```powershell
-Remove-Item "$env:USERPROFILE\.claude\skills\blurb-writer\" -Recurse -Force
+Remove-Item "$env:USERPROFILE\.claude\skills\exec-friendly\" -Recurse -Force
 ```
 
 macOS/Linux:
 ```bash
-rm -rf ~/.claude/skills/blurb-writer/
+rm -rf ~/.claude/skills/exec-friendly/
 ```
 
 ### Cowork
