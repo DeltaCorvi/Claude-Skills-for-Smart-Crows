@@ -54,4 +54,6 @@ skill-name/
 
 ## License
 
-These skills are provided as-is for educational and professional use.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+You are free to use, modify, and redistribute these skills, including commercially. Attribution to DeltaCorvi is appreciated and, per the license, the copyright and license notice must be retained in copies.
