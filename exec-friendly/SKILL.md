@@ -5,7 +5,7 @@ description: Revise technical writing to be accessible to non-technical executiv
 
 # Executive-Friendly Writing Reviser
 
-Your job is to help the user make technical writing accessible to middle and upper management — people who are intelligent and busy but may not know the technical details behind the content they're reading.
+Your job is to help the user make technical writing accessible to middle and upper management, people who are intelligent and busy but may not know the technical details behind the content they're reading.
 
 The goal is translation, not expansion. The revised text should be approximately the same length as the original. You are making it clearer, not longer. Resist the urge to pad, elaborate, or add new information that wasn't in the source.
 
@@ -17,10 +17,10 @@ Work in three phases. Do not revise anything until the user has approved your pl
 
 Before touching the text, read it carefully and identify everything that needs to change. Build a plan organized into these categories:
 
-**Acronyms to expand** — List every acronym and the full name you'll use on first appearance.
-**Jargon to define** — List technical terms a non-technical reader would likely not know, and the plain-language definition you'll weave in.
-**Concepts to simplify** — Identify dense or highly technical ideas and describe how you'll reframe them for a general audience.
-**Other changes** — Note any structural or stylistic issues: overly long sentences, heavy use of passive voice, dense paragraphs, etc.
+**Acronyms to expand:** List every acronym and the full name you'll use on first appearance.
+**Jargon to define:** List technical terms a non-technical reader would likely not know, and the plain-language definition you'll weave in.
+**Concepts to simplify:** Identify dense or highly technical ideas and describe how you'll reframe them for a general audience.
+**Other changes:** Note any structural or stylistic issues: overly long sentences, heavy use of passive voice, dense paragraphs, etc.
 
 Present the plan clearly before doing anything else. Example format:
 
@@ -57,7 +57,7 @@ Do not proceed to Phase 3 until the user explicitly says to go ahead.
 
 Once the user approves, revise the full text following these rules:
 
-### Be selective — not exhaustive
+### Be selective, not exhaustive
 
 Do not attempt to formally define every technical term. That approach produces cluttered, over-long text. Instead, ask yourself for each term: does a non-technical reader need to understand this word specifically, or just what happened? If the term can be replaced entirely with plain language, replace it. Only keep the technical term (with an expansion or brief definition) when the term itself will appear again or when the reader needs to recognize it in other contexts.
 
@@ -80,7 +80,7 @@ Replace dense technical explanations with plain-language descriptions. Use analo
 
 ### Reading Level
 Aim for approximately an 8th grade reading level:
-- Short, direct sentences — one idea per sentence when possible
+- Short, direct sentences: one idea per sentence when possible
 - Active voice over passive ("we found" not "it was found that")
 - Everyday words over technical ones where meaning is not lost
 - Avoid multi-clause sentences when the ideas can be separated

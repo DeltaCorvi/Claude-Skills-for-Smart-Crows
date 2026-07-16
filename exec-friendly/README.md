@@ -20,9 +20,9 @@ This skill is useful if you:
 
 The skill works in three phases, and it does not touch the text until you approve its plan:
 
-1. **Plan** — It reads the source and lists everything to change, organized into acronyms to expand, jargon to define, concepts to simplify, and other structural or stylistic fixes.
-2. **Request permission** — It presents the plan and waits for your explicit approval before revising anything.
-3. **Revise** — Once approved, it rewrites the text, being selective rather than exhaustive: replacing terms with plain language where possible, and keeping a technical term only when it recurs or the reader needs to recognize it.
+1. **Plan:** It reads the source and lists everything to change, organized into acronyms to expand, jargon to define, concepts to simplify, and other structural or stylistic fixes.
+2. **Request permission:** It presents the plan and waits for your explicit approval before revising anything.
+3. **Revise:** Once approved, it rewrites the text, being selective rather than exhaustive: replacing terms with plain language where possible, and keeping a technical term only when it recurs or the reader needs to recognize it.
 
 ## Installation
 

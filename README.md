@@ -7,7 +7,7 @@ A collection of reusable skills for Claude Code and Cowork. Each skill is self-c
 
 ## Installation
 
-Each skill includes an `INSTALLATION.md` file with step-by-step setup instructions for the platform(s) it supports, across Windows, macOS, and Linux where applicable. Platform scope is decided per skill, not assumed — most skills here work in both Claude Code and Cowork, but some (like `update-project-memory`) are single-platform by design. Check the skill's own `INSTALLATION.md` for which sections apply.
+Each skill includes an `INSTALLATION.md` file with step-by-step setup instructions for the platform(s) it supports, across Windows, macOS, and Linux where applicable. Platform scope is decided per skill, not assumed. Most skills here work in both Claude Code and Cowork, but some (like `update-project-memory`) are single-platform by design. Check the skill's own `INSTALLATION.md` for which sections apply.
 
 ### Claude Code
 
@@ -50,7 +50,7 @@ skill-name/
 └── examples/           (optional)
 ```
 
-**Important:** Platform scope isn't a default — verify which platform(s) a skill's behavior actually supports before writing `INSTALLATION.md`. If it works in both Claude Code and Cowork, include separate sections for each, since they use different mechanisms and paths. If it's single-platform by design (e.g., `update-project-memory`, which depends on Cowork's Projects/auto-memory concept), document only that platform. See any existing skill for the expected structure.
+**Important:** Platform scope isn't a default: verify which platform(s) a skill's behavior actually supports before writing `INSTALLATION.md`. If it works in both Claude Code and Cowork, include separate sections for each, since they use different mechanisms and paths. If it's single-platform by design (e.g., `update-project-memory`, which depends on Cowork's Projects/auto-memory concept), document only that platform. See any existing skill for the expected structure.
 
 ## License
 
